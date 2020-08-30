@@ -231,17 +231,6 @@
 .footer_info li a {color: #8f8f8f;}
 .footer_info address p {color: #8f8f8f; padding-bottom: 15px;}
 
-/* 미디어쿼리 */
-@media (max-width: 1290px){
-    .container {width: 100%;}
-    .header .nav ul li {width: 93px;}
-    .header .nav ul li a {font-size: 15px; padding: 17px 10px;}
-    .header h1 em {padding: 11px 8px 5px 0;}
-    .header h1 strong {top: 19px;}
-    
-    .swiper-button-prev, .swiper-button-next {display: none;}
-}
-
 /* 트레일러 */
 .overlay {background: rgba(0,0,0,0.92); display: none; width: 100%; height: 100%; position: fixed; top: 0; left: 0; z-index: 10000;}
 .modal {position: absolute;}
@@ -253,6 +242,16 @@
 }
 body.modal_on {overflow: hidden;}
 
+/* 미디어쿼리 */
+@media (max-width: 1290px){
+    .container {width: 100%;}
+    .header .nav ul li {width: 93px;}
+    .header .nav ul li a {font-size: 15px; padding: 17px 10px;}
+    .header h1 em {padding: 11px 8px 5px 0;}
+    .header h1 strong {top: 19px;}
+    
+    .swiper-button-prev, .swiper-button-next {display: none;}
+}
 
 @media (max-width: 1024px){
     #mNav {display: block;}
